@@ -21,6 +21,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        getSupportActionBar().hide();
+
         //giving value using R.id
         tvSplash = findViewById(R.id.tvSplash);
         tvSubSplash = findViewById(R.id.tvSubSplash);
