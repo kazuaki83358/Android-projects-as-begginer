@@ -37,9 +37,6 @@ public class Home_Page extends AppCompatActivity {
 
         taskList.add(task);
         taskList.add(task);
-        taskList.add(task);
-        taskList.add(task);
-        taskList.add(task);
 
         taskAdapter.setTaskList(taskList);
     }
